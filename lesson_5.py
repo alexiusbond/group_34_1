@@ -16,3 +16,4 @@ print(emoji.emojize('Python is :thumbs_up:'))
 print(config('DATABASE_URL'))
 commented = config('COMMENTED', default=0, cast=int)
 print(commented * 2)
+# The end
